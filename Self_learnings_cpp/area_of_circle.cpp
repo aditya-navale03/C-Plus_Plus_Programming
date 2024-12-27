@@ -1,11 +1,12 @@
-//take radius
+// take radius
 
 #include <iostream>
 #include <cmath>
 
 using namespace std;
 
-int main(){
+int main()
+{
 
     cout << "enter radius:";
     double radius;
@@ -14,5 +15,5 @@ int main(){
     const double pi = 3.14;
 
     double area = pi * pow(radius, 2);
-    cout<<area;
+    cout << area;
 }
