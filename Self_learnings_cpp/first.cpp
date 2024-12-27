@@ -1,8 +1,13 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){
-    std::cout <<"hello world";
-    return 0;
+int main() {
+
+    int x = 10;
+    int y = 23;
+
+    cout << "x = " <<x << endl
+         <<"y = " << y;
+
+
 }
